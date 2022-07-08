@@ -9,10 +9,11 @@ export default function Navbar() {
   return (
 
       <nav className="nav">
-          <Link to="/" className="site-title" id="logo1">
-        John Mendez
+          <Link to="/" className="animated">
+          &lt;JohnMendez/&gt;
       </Link>
       <ul>
+      <CustomLink to="/" id="logo1">Home</CustomLink>
       <CustomLink to="/projects" id="logo1">Projects</CustomLink>
         <CustomLink to="/contact" id="logo1">Contact Information</CustomLink>
       </ul>

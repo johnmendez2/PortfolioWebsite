@@ -23,6 +23,7 @@
   
   .site-title {
     font-size: 2rem;
+    font-family: 'Sora', sans-serif;
   }
   
   .nav ul {
@@ -31,6 +32,8 @@
     list-style: none;
     display: flex;
     gap: 1rem;
+    font-family: 'Sora', sans-serif;
+    
   }
   
   .nav a {
@@ -43,9 +46,28 @@
   }
   
   .nav li.active {
-    background-color: rgba(228, 39, 39, 0.774);
+    background-color: #e42727c5;
+    
   }
   
   .nav li:hover {
-    background-color: rgba(221, 48, 48, 0.521);
+    background-color: #dd303085;
+    transition: ease background-color 250ms;
   }
+
+
+  .animated {
+    font-family: 'Sora', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+   }
+   
+   .animated:hover {
+    background-position: -100%;
+   }

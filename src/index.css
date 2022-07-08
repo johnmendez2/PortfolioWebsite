@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-image: url(https://www.teahub.io/photos/full/35-354842_high-resolution-grey-abstract-wallpaper-full-size-siwallpaperhd.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size:cover;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
