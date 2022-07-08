@@ -1,4 +1,53 @@
+#welcome{
+  font-family: 'Sora', sans-serif;
+  color: rgb(255, 255, 255);
+  display: flex;
+  margin-top: 15%;
+  margin-left: 5%;
+  font-size: 2rem;
+}
 
+
+#a1{
+  font-family: 'Sora', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  font-size: 1.5rem;
+}
+
+#a2{
+  font-family: 'Sora', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: 5%;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#projbut{
+  margin-top: 5%;
+  margin-left: 5%;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#hidcontinf{
+  margin-top: 40%;
+  margin-left: 5%;
+}
+
+#hidden{ 
+  margin-top: 5%;
+  font-size: 15px;
+  margin-left: 5%;
+  font-family: 'Sora', sans-serif;
+}
+@media only screen and (min-width: 768px){
+
+  #hidcontinf{
+  display: none;
+  }
   #button1{
     background: none!important;
     border: none;
@@ -84,3 +133,12 @@
     border-radius: 0.2rem;
     transition: background 200ms ease-in, color 200ms ease-in;
   }
+
+  #hidden{
+    display: none;
+  }
+  #a2{
+    display: none;
+  }
+}
+  

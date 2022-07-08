@@ -10,8 +10,7 @@
     margin: 1rem;
     text-align: center;
   }
-  
-  .nav {
+  nav {
     background-color: rgba(0, 0, 0, 0.493);
     color: white;
     display: flex;
@@ -20,20 +19,27 @@
     gap: 2rem;
     padding: 0 1rem;
   }
+
   
-  .site-title {
-    font-size: 2rem;
+
+  .animated {
     font-family: 'Sora', sans-serif;
-  }
-  
-  .nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    font-family: 'Sora', sans-serif;
-    
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+   }
+
+   .animated:hover {
+    background-position: -100%;
+   }
+   .nav ul {
+    display: none;
+
   }
   
   .nav a {
@@ -44,30 +50,74 @@
     align-items: center;
     padding: .25rem;
   }
-  
-  .nav li.active {
-    background-color: #e42727c5;
+
+  #hidden{
+    margin-left: 5%;
+  }
+
+  @media only screen and (min-width: 768px){
+    .nav {
+      background-color: rgba(0, 0, 0, 0.493);
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 2rem;
+      padding: 0 1rem;
+    }
     
-  }
+    .site-title {
+      font-size: 2rem;
+      font-family: 'Sora', sans-serif;
+    }
+    
+    .nav ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      font-family: 'Sora', sans-serif;
+      
+    }
+    
+    .nav a {
+      color: inherit;
+      text-decoration: none;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: .25rem;
+    }
+    
+    .nav li.active {
+      background-color: #e42727c5;
+      
+    }
+    
+    .nav li:hover {
+      background-color: #dd303085;
+      transition: ease background-color 250ms;
+    }
   
-  .nav li:hover {
-    background-color: #dd303085;
-    transition: ease background-color 250ms;
+  
+    .animated {
+      font-family: 'Sora', sans-serif;
+      font-size: 40px;
+      font-weight: 900;
+      text-decoration: none;
+      background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
+      background-size: 200%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: 0.5s ease-out;
+     }
+     
+     .animated:hover {
+      background-position: -100%;
+     }
+
+     #hidden{
+      display: none;
+     }
   }
-
-
-  .animated {
-    font-family: 'Sora', sans-serif;
-    font-size: 40px;
-    font-weight: 900;
-    text-decoration: none;
-    background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
-    background-size: 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: 0.5s ease-out;
-   }
-   
-   .animated:hover {
-    background-position: -100%;
-   }
