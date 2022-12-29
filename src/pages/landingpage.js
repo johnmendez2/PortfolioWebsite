@@ -4,7 +4,6 @@ import "./landingpage.css"
 import Navbar from "../tools/Navbar";
 import Button from "../tools/Button";
 import {useNavigate} from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Landing(){
     let navigate = useNavigate();

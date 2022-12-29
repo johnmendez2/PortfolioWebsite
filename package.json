@@ -1,7 +1,7 @@
 {
   "name": "portfoliowebsit",
   "version": "0.1.0",
-  "homepage": "https://johnmendez2.github.io/PortfolioWebsite",
+  "homepage": "https://johnmendez2.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
