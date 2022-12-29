@@ -53,6 +53,11 @@ function Projects(){
         description="ChatBot deployed on Telegram to give the user Hobby suggestions using a score based system."
         link="https://github.com/johnmendez2/Relaxa"
         ></Card>
+        <Card img="https://thumbs.dreamstime.com/b/business-technology-internet-network-concept-young-businessman-shows-word-data-mining-165782428.jpg"
+        title="Data Mining and Machine Learning Portfolio"
+        description="Data Mining and Machine Learning portfolio on the US Accidents database 2018-2021."
+        link="https://github.com/johnmendez2/Jupyter-Portfolio"
+        ></Card>
         </div>
         </div>
         

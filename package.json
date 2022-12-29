@@ -1,6 +1,7 @@
 {
   "name": "portfoliowebsit",
   "version": "0.1.0",
+  "homepage": "https://johnmendez2.github.io/PortfolioWebsite",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
@@ -10,11 +11,12 @@
     "@testing-library/user-event": "^13.5.0",
     "font-awesome": "^4.7.0",
     "framer-motion": "^6.4.2",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.53.0",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
@@ -23,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
