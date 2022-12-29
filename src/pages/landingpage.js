@@ -11,7 +11,7 @@ function Landing(){
         <div>
             <Navbar></Navbar>
             <AnimatedPage>
-        <h1 id="welcome">Full-Stack Developer, Aspiring Data Analyst</h1>
+        <h1 id="welcome">Full-Stack Developer, Data Analyst</h1>
         <p id="a1"> I am a 4th Year student at Heriot Watt University looking to make a name for myself in the industry.
          <br></br>
          Check out some of my projects!
