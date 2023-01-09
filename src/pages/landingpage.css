@@ -4,7 +4,7 @@
   display: flex;
   margin-top: 15%;
   margin-left: 5%;
-  font-size: 2rem;
+  font-size: 40px;
 }
 
 
@@ -13,7 +13,7 @@
   color: rgb(255, 255, 255);
   margin-top: 5%;
   margin-left: 5%;
-  font-size: 1rem;
+  font-size: 25px;
 }
 
 #a2{
@@ -31,9 +31,23 @@
   font-size: 1rem;
 }
 
+#projbuthid{
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
 #hidcontinf{
   margin-top: 70%;
   margin-left: 5%;
+}
+
+#cont{
+  font-family: 'Sora', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: 5%;
+  font-size: 23px;
 }
 
 #hidden{ 
@@ -43,7 +57,9 @@
   font-family: 'Sora', sans-serif;
 }
 @media only screen and (min-width: 768px){
-
+  #projbuthid{
+    display: none;
+  }
   #hidcontinf{
   display: none;
   }
@@ -87,7 +103,7 @@
     margin-top: 1%;
     margin-left: 5%;
     margin-bottom: 1%;
-    font-size: calc(.5em + 0.7vw);
+    font-size: 50px;
   }
 
   #linked{
@@ -99,9 +115,8 @@
     font-size: calc(.5em + 3vw);
   }
 
-
   #projbut{
-    margin-top: 1%;
+    margin-top: 0.5%;
     margin-left: 5%;
     cursor: pointer;
   }

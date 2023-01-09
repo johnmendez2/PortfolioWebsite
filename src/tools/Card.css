@@ -65,6 +65,27 @@ body {
   cursor: pointer;
 }
 
+.skills{
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  top: 20%;
+}
+.sname{
+  position: relative;
+  left: 40%;
+  bottom: 30%;
+  font-size: 200%;
+  font-weight: 800;
+}
+.icon-card {
+  background-color: rgba(0, 0, 0, 0.493);
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
 @media only screen and (min-width: 768px){
   body {
     font-family: Oxygen, sans-serif;
@@ -78,7 +99,28 @@ body {
     gap: 2rem;
     justify-content: center;
   }
-  
+  .skills{
+    width: 10vw;
+    height: 10vw;
+    position: relative;
+    top: 0%;
+  }
+  .sname{
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    bottom: 40%;
+    left: 20%;
+    font-size: 200%;
+    font-weight: 800;
+  }
+  .icon-card {
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
   .card {
     overflow: hidden;
     background-color: rgb(27, 26, 26);
