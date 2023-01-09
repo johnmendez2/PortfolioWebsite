@@ -107,6 +107,15 @@ function Skills() {
                     />
                     <div className="sname">HTML 5</div>
                 </div>
+                <div className="icon-card">
+                    <img
+                        src="https://cdn-icons-png.flaticon.com/128/2103/2103665.png"
+                        alt=""
+                        loading="lazy"
+                        class="skills"
+                    />
+                    <div className="sname">RStudio</div>
+                </div>
             </div>
         </div>
 
