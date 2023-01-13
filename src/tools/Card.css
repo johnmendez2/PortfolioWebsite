@@ -66,23 +66,21 @@ body {
 }
 
 .skills{
-  width: 25vw;
-  height: 25vw;
-  position: relative;
-  top: 15%;
+  width: 28vw;
+  height: 28vw;
 }
 .sname{
   position: relative;
-  left: 40%;
-  bottom: 40%;
-  font-size: 180%;
+  left: 55%;
+  top: -40%;
+  font-size: 140%;
   font-weight: 800;
 }
 .icon-card {
   background-color: rgba(0, 0, 0, 0.493);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
-  padding: 10px;
+  padding: 30px;
   margin: 7px;
 }
 
