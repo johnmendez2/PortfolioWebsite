@@ -66,10 +66,10 @@ body {
 }
 
 .skills{
-  width: 20vw;
-  height: 20vw;
+  width: 25vw;
+  height: 25vw;
   position: relative;
-  top: 10%;
+  top: 15%;
 }
 .sname{
   position: relative;
